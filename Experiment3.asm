@@ -1,3 +1,5 @@
+; Using timer 1 in CTC Mode in order to display number on a 7-LED segment
+
 .include "m324padef.inc" ; Include Atmega324pa definitions
 .org 0x0000 ; interrupt vector table
 rjmp reset_handler ; reset
